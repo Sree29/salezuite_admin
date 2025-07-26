@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- End layout styles -->
     <!-- <link rel="shortcut icon" href="assets/images/favicon.png" /> -->
-    
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
@@ -169,7 +169,7 @@
                                     <!-- <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt=""> -->
                                     <div class="img-xs rounded-circle d-flex justify-content-center align-items-center bg-light"
                                         style="width: 32px; height: 32px;">
-                                       <i class="fa fa-user text-secondary"></i>
+                                        <i class="fa fa-user text-secondary"></i>
 
                                     </div>
 
@@ -234,8 +234,7 @@
                                 <div class="card-body">
 
                                     <h4 class="card-title">Support Issues Table</h4>
-                                    <!-- <p class="card-description"> Add class <code>.table-striped</code>
-                  </p> -->
+                                    
                                     <div class="table-responsive">
                                         <table class="table table-striped">
                                             <thead>
@@ -397,6 +396,32 @@
                             </div>
                         </div>
                     </div>
+                    <style>
+                        .table-responsive {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 767px) {
+  .modal-dialog {
+    max-width: 95% !important;
+    margin: 1rem auto;
+  }
+
+  .modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  .modal-content {
+    overflow-x: auto;
+  }
+
+  .table {
+    min-width: 500px;
+  }
+}
+
+                    </style>
                     <!-- content-wrapper ends -->
                     <!-- partial:../../partials/_footer.html -->
                     <footer class="footer">
