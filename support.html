@@ -129,6 +129,14 @@
                     </a>
                 </li>
                 <li class="nav-item menu-items">
+                    <a class="nav-link" href="website-users.html">
+                        <span class="menu-icon">
+                            <i class="mdi mdi-account-group"></i>
+                        </span>
+                        <span class="menu-title">Website User Table</span>
+                    </a>
+                </li>
+                <li class="nav-item menu-items">
                     <a class="nav-link" href="support.html">
                         <span class="menu-icon">
                             <i class="mdi mdi-headset"></i>
@@ -234,7 +242,7 @@
                                 <div class="card-body">
 
                                     <h4 class="card-title">Support Issues Table</h4>
-                                    
+
                                     <div class="table-responsive">
                                         <table class="table table-striped">
                                             <thead>
@@ -277,10 +285,12 @@
 
                                                     <td>
                                                         <a href="javascript:void(0);" data-bs-toggle="modal"
-                                                            data-bs-target="#viewDescriptionModal">
+                                                            data-bs-target="#viewDescriptionModal"
+                                                            title="Issue Details">
                                                             <i class="mdi mdi-eye-outline"></i>
                                                         </a>
                                                     </td>
+
                                                 </tr>
 
                                                 <tr>
@@ -298,10 +308,12 @@
 
                                                     <td>
                                                         <a href="javascript:void(0);" data-bs-toggle="modal"
-                                                            data-bs-target="#viewDescriptionModal">
+                                                            data-bs-target="#viewDescriptionModal"
+                                                            title="Issue Details">
                                                             <i class="mdi mdi-eye-outline"></i>
                                                         </a>
                                                     </td>
+
                                                 </tr>
 
                                             </tbody>
@@ -398,29 +410,29 @@
                     </div>
                     <style>
                         .table-responsive {
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch;
-}
-@media (max-width: 767px) {
-  .modal-dialog {
-    max-width: 95% !important;
-    margin: 1rem auto;
-  }
+                            overflow-x: auto !important;
+                            -webkit-overflow-scrolling: touch;
+                        }
 
-  .modal-body {
-    max-height: 70vh;
-    overflow-y: auto;
-  }
+                        @media (max-width: 767px) {
+                            .modal-dialog {
+                                max-width: 95% !important;
+                                margin: 1rem auto;
+                            }
 
-  .modal-content {
-    overflow-x: auto;
-  }
+                            .modal-body {
+                                max-height: 70vh;
+                                overflow-y: auto;
+                            }
 
-  .table {
-    min-width: 500px;
-  }
-}
+                            .modal-content {
+                                overflow-x: auto;
+                            }
 
+                            .table {
+                                min-width: 500px;
+                            }
+                        }
                     </style>
                     <!-- content-wrapper ends -->
                     <!-- partial:../../partials/_footer.html -->
